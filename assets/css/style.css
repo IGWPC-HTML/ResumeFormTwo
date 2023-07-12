@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.link-btn {
+  padding: 1rem 1rem;
+  color: white;
+  transition: all 0.3s linear;
+}
+
+.link-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-gainsboro {
+  background-color: gainsboro;
+}
+
+.position-sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.group {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-half {
+  flex: 0 0 50%;
+}
+
+.flex-half > img {
+  width: 100%;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.p2 {
+  padding: 2rem;
+}
+
+.border-white {
+  border: 1px solid white;
+}
+
+.border-black {
+  border: 1px solid black;
+}
